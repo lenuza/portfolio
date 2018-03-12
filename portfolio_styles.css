@@ -1,0 +1,182 @@
+body {
+  width: 80vw;
+  height: 90vh;
+  margin: auto;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+/*Header*/
+
+.logo {
+  display: none;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1px;
+}
+
+.top {
+  font-weight: bold;
+  text-align: right;
+  text-transform: uppercase;
+  border-bottom: 3px solid #7d97ad;
+  padding: 0;
+}
+
+/*Content*/
+
+.central {
+  display: none;
+}
+
+.featured-work {
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+  margin: auto;
+  font-size: 0.8em;
+  text-transform: capitalize;
+  color: #7d97ad;
+}
+
+#wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.my-work {
+  width: 100%;
+  min-width: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.my-work-style {
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #2d3c49;
+}
+
+#my-card {
+  width: 100%;
+  height: 150px;
+  background: url("images/cave1.jpg") center/100% no-repeat;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#my-art {
+  width: 100%;
+  height: 150px;
+  background: url("images/pixelart.png") center/cover no-repeat;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#my-site {
+  width: 100%;
+  height: 150px;
+  background: url("images/free.jpg") center/cover no-repeat;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/*Media queries*/
+
+@media screen and (min-width: 700px) {
+  /*Header*/
+  .logo {
+    display: block;
+  }
+  h1 {
+    font-size: 3em;
+    margin-bottom: 1px;
+    font-weight: lighter;
+  }
+  .top {
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+    border-bottom: 3px solid #7d97ad;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .my-work {
+    width: 22em;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #2d3c49;
+    overflow: hidden;
+  }
+}
+  @media screen and (min-width: 1300px) {
+    /*Header*/
+    .logo {
+      display: block;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 1px;
+      font-weight: lighter;
+    }
+
+    .top {
+      font-weight: bold;
+      text-align: right;
+      text-transform: uppercase;
+      border-bottom: 3px solid #7d97ad;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    /*Content*/
+    .central {
+      display: block;
+      width: 90%;
+      height: 45%;
+      margin: auto;
+      background-color: #add8e6;
+      overflow: hidden;
+    }
+
+    #snippet {
+      width: 100%;
+    }
+
+    .featured-work {
+      width: 90%;
+      height: auto;
+      margin: 0;
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 1.5em;
+      color: #7d97ad;
+    }
+
+    #wrap {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .my-work {
+      width: 22em;
+      font-weight: bold;
+      font-size: 1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      color: #2d3c49;
+      overflow: hidden;
+    }
+  }
