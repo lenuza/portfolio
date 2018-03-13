@@ -8,11 +8,6 @@ body {
 
 /*Header*/
 
-.logo {
-  display: block;
-
-}
-
 h1 {
   font-size: 2em;
   margin-bottom: 1px;
@@ -34,7 +29,7 @@ h1 {
 
 .central {
   width: 90%;
-  height: 20%;
+  height: 70px;
   margin: 20px auto;
   background-color: #add8e6;
   overflow: hidden;
@@ -114,10 +109,6 @@ h1 {
 @media screen and (min-width: 700px) {
 
   /*Header*/
-  .logo {
-    display: block;
-
-  }
 
   h1 {
     font-size: 3em;
@@ -138,10 +129,10 @@ h1 {
   }
 
   /*Content*/
+
   .central {
-    display: block;
     width: 90%;
-    height: 35%;
+    height: 45%;
     margin: 20px auto;
     background-color: #add8e6;
     overflow: hidden;
@@ -168,11 +159,8 @@ h1 {
 }
 
 @media screen and (min-width: 1300px) {
-  /*Header*/
-  .logo {
-    display: block;
 
-  }
+  /*Header*/
 
   h1 {
     font-size: 3em;
@@ -193,8 +181,8 @@ h1 {
   }
 
   /*Content*/
+
   .central {
-    display: block;
     width: 90%;
     height: 45%;
     margin: 20px auto;
@@ -225,5 +213,5 @@ h1 {
     overflow: hidden;
 
   }
-  
+
 }
