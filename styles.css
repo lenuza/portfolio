@@ -143,6 +143,7 @@ h1 {
 @media screen and (min-width: 1300px) {
 
   /*Header*/
+  
   h1 {
     font-size: 3em;
     margin-bottom: 1px;
