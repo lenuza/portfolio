@@ -3,17 +3,20 @@ body {
   height: 90vh;
   margin: auto;
   font-family: "Alegreya Sans SC", sans-serif;
+
 }
 
 /*Header*/
 
 .logo {
-  display: none;
+  display: block;
+
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 1px;
+
 }
 
 .top {
@@ -22,12 +25,25 @@ h1 {
   text-transform: uppercase;
   border-bottom: 3px solid #7d97ad;
   padding: 0;
+  display: flex;
+  justify-content: space-around;
+
 }
 
 /*Content*/
 
 .central {
-  display: none;
+  width: 90%;
+  height: 20%;
+  margin: 20px auto;
+  background-color: #add8e6;
+  overflow: hidden;
+
+}
+
+#snippet {
+  width: 100%;
+
 }
 
 .featured-work {
@@ -37,6 +53,7 @@ h1 {
   font-size: 1.5em;
   text-transform: capitalize;
   color: #7d97ad;
+
 }
 
 #wrap {
@@ -44,6 +61,7 @@ h1 {
   justify-content: space-around;
   flex-wrap: wrap;
   margin: auto;
+
 }
 
 .my-work {
@@ -51,6 +69,7 @@ h1 {
   min-width: 300px;
   margin: auto;
   overflow: hidden;
+
 }
 
 .my-work-style {
@@ -60,6 +79,7 @@ h1 {
   text-decoration: none;
   text-align: center;
   color: #2d3c49;
+
 }
 
 #my-card {
@@ -68,6 +88,7 @@ h1 {
   background: url("images/cave1.jpg") center/100% no-repeat;
   margin-bottom: 10px;
   overflow: hidden;
+
 }
 
 #my-art {
@@ -76,6 +97,7 @@ h1 {
   background: url("images/pixelart.png") center/cover no-repeat;
   margin-bottom: 10px;
   overflow: hidden;
+
 }
 
 #my-site {
@@ -84,20 +106,26 @@ h1 {
   background: url("images/free.jpg") center/cover no-repeat;
   margin-bottom: 10px;
   overflow: hidden;
+
 }
 
 /*Media queries*/
 
 @media screen and (min-width: 700px) {
+
   /*Header*/
   .logo {
     display: block;
+
   }
+
   h1 {
     font-size: 3em;
     margin-bottom: 1px;
     font-weight: lighter;
+
   }
+
   .top {
     font-weight: bold;
     text-align: right;
@@ -106,7 +134,25 @@ h1 {
     padding: 0;
     display: flex;
     justify-content: space-between;
+
   }
+
+  /*Content*/
+  .central {
+    display: block;
+    width: 90%;
+    height: 35%;
+    margin: 20px auto;
+    background-color: #add8e6;
+    overflow: hidden;
+
+  }
+
+  #snippet {
+    width: 100%;
+
+  }
+
   .my-work {
     width: 22em;
     font-weight: bold;
@@ -116,19 +162,25 @@ h1 {
     text-align: center;
     color: #2d3c49;
     overflow: hidden;
+
   }
+
 }
 
 @media screen and (min-width: 1300px) {
   /*Header*/
   .logo {
     display: block;
+
   }
+
   h1 {
     font-size: 3em;
     margin-bottom: 1px;
     font-weight: lighter;
+
   }
+
   .top {
     font-weight: bold;
     text-align: right;
@@ -137,7 +189,9 @@ h1 {
     padding: 0;
     display: flex;
     justify-content: space-between;
+
   }
+
   /*Content*/
   .central {
     display: block;
@@ -146,14 +200,20 @@ h1 {
     margin: 20px auto;
     background-color: #add8e6;
     overflow: hidden;
+
   }
+
   #snippet {
     width: 100%;
+
   }
+
   #wrap {
     display: flex;
     justify-content: space-between;
+
   }
+
   .my-work {
     width: 22em;
     font-weight: bold;
@@ -163,5 +223,7 @@ h1 {
     text-align: center;
     color: #2d3c49;
     overflow: hidden;
+
   }
+  
 }
